@@ -16,8 +16,8 @@ public class Exercise_07_09 {
 		System.out.println("\n");
 
 		AccountReal account2 = new AccountReal(1122, 20000, 4.5);
-		account2.getWithdraw(2500);
-		account2.getDeposit(3000);
+		account2.Withdraw(2500);
+		account2.Deposit(3000);
 		System.out.println("The account id is " + account2.getID());
 		System.out.println("The account balance is " + account2.getBalance());
 		System.out.println("The account monthly interest is " + account2.getMonthlyInterest());
